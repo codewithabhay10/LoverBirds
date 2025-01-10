@@ -15,6 +15,10 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
+   document.querySelector('.yes-button').addEventListener('click', function() {
+            window.location.href = 'data.html';
+        });
+
     const yesButtons = document.querySelectorAll('.yes-button');
     yesButtons.forEach(button => {
         button.addEventListener('click', function() {
